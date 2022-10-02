@@ -59,5 +59,11 @@ console.log(m == 10 || n == 5);
 //Test whether an item is in a array
 
 let names = ['Rohan', 'Badar'];
-console.log("Is names are arrray?");
-console.log(names != []);
+console.log("Is name is in a  arrray?");
+console.log(names.includes('Rohan', 0));
+
+// Test whether an item is not in a array
+
+let names1 = ['Rohan', 'Badar'];
+console.log("Is name in a arrray?");
+console.log(names.includes('Rohan', 1));
