@@ -1,15 +1,15 @@
 let current_user = ['munim', 'ammad', 'badar', 'hamza', 'ali']
-let new_user = ['salman', 'affan', 'munim', 'shazil', 'huzaifa']
+let new_user = ['munim', 'salman', 'affan', 'shazil', 'huzaifa']
+let x = 0
 
+for (let i = 0; i < new_user.length; i++) {
 
-for (let x of new_user) {
+    if (current_user[i] == new_user[i]) {
 
-    if ((x.includes(current_user))) {
-
-        console.log(x + ": is not available. Enter new name");
+        console.log(i + " Username exist, try another username");
 
     } else {
-        console.log(x + ": is available");
+        console.log(i + " Username  available");
     }
 
 }
